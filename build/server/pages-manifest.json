@@ -1,6 +1,7 @@
 {
   "/_app": "pages/_app.js",
   "/aboutus": "pages/aboutus.html",
+  "/apply": "pages/apply.html",
   "/brochures": "pages/brochures.html",
   "/images": "pages/images.html",
   "/": "pages/index.html",

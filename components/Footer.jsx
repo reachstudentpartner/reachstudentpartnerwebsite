@@ -27,20 +27,20 @@ const Footer = (props) => {
         <br/>
         <VStack>
           <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Featured RSPs</Button>
-          <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Featured Mentors</Button>
+          {/* <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Featured Mentors</Button> */}
           <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Featured Events</Button>
-          <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Featured Institutions</Button>
+          {/* <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Featured Institutions</Button> */}
         </VStack>
         <Spacer/>
         <br/>
         <br/>
-        <VStack>
+        {/* <VStack>
           <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Build your CV</Button>
           <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Improve Communication Skills</Button>
           <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Learn a language</Button>
           <Button  fontSize={smallscreen?"1rem":"1.5rem"} variant={"link"}>Get help from peers</Button>
         </VStack>
-        <Spacer/>
+        <Spacer/> */}
         <br/>
         <br/>
       </Stack>

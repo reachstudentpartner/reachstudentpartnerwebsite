@@ -61,6 +61,9 @@ const Aboutus = () => {
         <br/>
         <br/>
         <Footer smallscreen={smallscreen}/>
+        <br />
+        <br />
+        <br />
       </Box>
     </>
   );

@@ -144,7 +144,7 @@ export default function Home() {
         </Text>
         <br />
         <br />
-        <Link href="/" passHref>
+        <Link href="/apply" passHref>
           <Button
             height={smallscreen ? "2rem" : "3rem"}
             backgroundColor={"red.300"}

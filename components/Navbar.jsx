@@ -19,7 +19,7 @@ const Navbar = (props) => {
       </Box>
       <Spacer/>
       <Button variant="ghost" colorScheme={"blue"}></Button>
-      <Link href="/" passHref>
+      <Link href="/apply" passHref>
       <Button height={smallscreen?"2rem":"3rem"} backgroundColor={"blue.300"}>Apply Now</Button></Link>
       <Box width={smallscreen? "0.2rem":"1rem"}/>
       <Box  width={smallscreen?"0.5rem":"1rem"}/>

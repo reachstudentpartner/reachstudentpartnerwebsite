@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,9 +16,9 @@
     "@fortawesome/react-fontawesome": "^0.1.17",
     "file-saver": "^2.0.5",
     "framer-motion": "^5.6.0",
-    "next": "12.0.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "eslint": "8.8.0",

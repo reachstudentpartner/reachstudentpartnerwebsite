@@ -26,8 +26,8 @@ const Images = () => {
         <br />
         <Box
           textAlign={"center"}
-          marginRight={smallscreen ? "1rem" : "5rem"}
-          marginLeft={smallscreen ? "1rem" : "5rem"}
+          paddingRight={smallscreen ? "1rem" : "2rem"}
+          paddingLeft={smallscreen ? "1rem" : "2rem"}
         >
           <Text
             fontSize={smallscreen ? "2rem" : "3.5rem"}
@@ -45,40 +45,12 @@ const Images = () => {
                 src="Food Of thought.png"
                 alt="food for thought"
               />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
               <Image
                 width="30rem"
                 height="30rem"
                 src="Motivation.png"
                 alt="motivation"
               ></Image>
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
-              <Spacer />
               <Image
                 width="30rem"
                 height="30rem"
@@ -101,6 +73,9 @@ const Images = () => {
           <br />
         </Box>
         <Footer smallscreen={smallscreen} />
+        <br />
+          <br />
+          <br />
       </Box>
     </>
   );
